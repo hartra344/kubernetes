@@ -449,7 +449,7 @@ func newNodeHasSyncedFunc(nodeLister corelisters.NodeLister, nodeName types.Node
 	}
 }
 
-// NewMainKubelet instantiates a new Kubelet object along with all the required internal modules.
+// NewMainKubelet instantitates a new Kubelet object along with all the required internal modules.
 // No initialization of Kubelet and its modules should happen here.
 func NewMainKubelet(ctx context.Context,
 	kubeCfg *kubeletconfiginternal.KubeletConfiguration,
